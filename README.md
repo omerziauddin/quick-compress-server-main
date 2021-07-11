@@ -1,1 +1,1 @@
-# quick-compress-server-main
+# quick-compress-server

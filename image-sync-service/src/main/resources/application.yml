@@ -1,0 +1,23 @@
+application:
+  fileAccept: jpg, png, jpeg, gif
+  queue:
+    transaction: QC_TASK_START
+    found: QC_NEW_IMAGE_FOUND
+    stats: QC_STATS_UPDATE
+    
+  limit: 100
+
+
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: quickcompress
+
+  rabbitmq:
+    host: 61.246.6.19
+    port: 5672
+    username: guest
+    password: India@9910
